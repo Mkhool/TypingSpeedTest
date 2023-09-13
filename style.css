@@ -13,14 +13,30 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #17a2b8;
+    background-image: url(/wallpaperings.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    flex-direction: column;
+    
 }
 
+.titleimg{
+margin: 50px;
+width: 75%;
+height: 200px;
+position: relative;
+background-image: url(/One_Ring_inscription.svg.png);
+background-repeat: no-repeat;
+background-size: 100%;
+
+
+}
 .wrapper{
     width: 770px;
     padding: 35px;
     background: #fff;
     border-radius: 10px;
+    opacity: 90%;
 }
 .wrapper .input-field{
 z-index: -999;
@@ -93,6 +109,7 @@ border-radius: 4px;
     align-items: center;
     border-top: 1px solid #ccc ;
     justify-content: space-between;
+   
 }
 .content .result-details{
     display: flex;
@@ -107,11 +124,11 @@ border-radius: 4px;
     width: 105px;
     padding-left: 8px 0;
     height: 40px;
-    color: #fff;
+    color: black;
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
-    background: #17a2b8;
+    background: #DABD95;
     transition: transform 0.3s ease;
 }
 

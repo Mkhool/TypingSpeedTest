@@ -7,7 +7,7 @@ cpmkeTag = document.querySelector('.cpm span');
 tryAgainBtn = document.querySelector('button');
 
 let timer,
-maxTime = 60, 
+maxTime = 120, 
 timeLeft = maxTime,
 charIndex = mistakes = isTyping = 0; 
 
